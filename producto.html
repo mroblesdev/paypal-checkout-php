@@ -27,10 +27,22 @@
                     <p class="lead">PC Gamer streaming y workstation con Intel Core i9 12 generación, y gráfica gpu
                         nvidia rtx 4060ti con ray tracing y dlss, máximos FPS, gráficas en ultra, edición de vídeo 4k 8k
                         d5 render 360 arquitectura modelado 3d cad lumion.</p>
+
+                    <div id="paypal-button-container"></div>
+
+                    <p id="result-message"></p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Initialize the JS-SDK -->
+
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=test&buyer-country=MX&currency=MXN&components=buttons&enable-funding=card"
+        data-sdk-integration-source="developer-studio"></script>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
